@@ -28,7 +28,8 @@ The low-magnitude values (like -1.13064445e+02 -22313.8805029j) indicate noise o
 Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)*
 
 ### **Task 3 – Navigation Data Decoding**  
-![alt text](image-1.png)
+Decoding navigation message...
+Ephemeris Data: {'satellite_id': 1, 'time_of_week': 123456, 'orbit': [1.0, 2.0, 3.0], 'health_status': 'healthy'}
 
 ### **Task 4 – Position and Velocity Estimation**  
 Using **pseudorange measurements** from tracking, implement the **Weighted Least Squares (WLS)** algorithm to compute the **user's position and velocity**.  
