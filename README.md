@@ -30,7 +30,10 @@ Process the **IF data** using a **GNSS SDR** and generate the initial acquisitio
 ![image](https://github.com/sinsin1998/Assignment_1/blob/main/figures/Task%201/acquisition%20result%20sky%20and%20urban.png)
 
 ### **Task 2 – Tracking**  
-Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)*
+Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)* 
+
+![image](https://github.com/user-attachments/assets/b3c0b98d-828e-4d8b-ba7a-0813caf2f41b)
+As the figure shows the opensky tracking results.
 
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
