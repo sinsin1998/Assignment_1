@@ -43,14 +43,5 @@ Using **pseudorange measurements** from tracking, implement the **Weighted Least
 ### **Task 5 – Kalman Filter-Based Positioning**  
 Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler measurements** to estimate **user position and velocity**.
 
-## Submission Guidelines  
-- Submit a **technical report** and **source code** via **GitHub (Readme.md format)**.
-- Share the GitHub repository link via email with:  
-  - **Dr. Hoi-Fung Ng** (hf-ivan.ng@connect.polyu.hk)  
-  - Other **teaching assistants**  
-  - The **course lecturer**  
-- **Deadline:** 13 March 2025  
 
----
-*This repository contains the source code and documentation for Assignment 1 of AAE6102.*  
 
