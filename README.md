@@ -17,7 +17,8 @@ We process the datasets seperately, started with Open-Sky!
 **Source:** Code is avaliable in Task_1_sky.py
 
 **Result:**
-![alt text](image.png)
+![Uploading image.png…]()
+
 The magnitude of the complex values reflects the strength of the signal at each frequency bin, while the phase gives information about the signal's phase shift. The larger magnitude values, such as 1.24600464e+05 + 36182.99329712j and 1.35773023e+05 + 42768.76777354j, indicate the presence of dominant frequency components in the signal, which likely correspond to the GNSS satellite signal you're trying to acquire. These peaks are essential for initial acquisition, as they represent the Doppler-shifted frequencies of the received signal.
 
 The low-magnitude values (like -1.13064445e+02 -22313.8805029j) indicate noise or less relevant frequency components and can be filtered out. The overall goal is to identify the peaks in the FFT result, which correspond to the dominant frequencies, and use these to estimate the Doppler shift and lock onto specific satellite signals. This step is crucial for initial GNSS signal acquisition and further processing.
