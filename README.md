@@ -26,7 +26,8 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 ## Assignment Results  
 
 ### **Task 1 – Acquisition**  
-Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results.
+Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. We get the results as the figure below. 
+![image](https://github.com/sinsin1998/Assignment_1/blob/main/figures/Task%201/acquisition%20result%20sky%20and%20urban.png)
 
 ### **Task 2 – Tracking**  
 Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)*
