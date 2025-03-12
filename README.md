@@ -40,6 +40,9 @@ The figure shows the urban tracking results.
 
 ![image](https://github.com/user-attachments/assets/5113d387-adf8-4a16-a9a4-e15f4db802c0)
 The figure shows the correlation.
+
+![image](https://github.com/user-attachments/assets/1bc3f6af-932d-4be6-8669-8db4052dd0b9)
+the table to process the channel 
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
 
