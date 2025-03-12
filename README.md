@@ -6,19 +6,10 @@
 
 **Due Date:** 12 March 2025  
 
-## Overview  
-We process the datasets seperately, started with Urban and followed with Opensky!
-
-
-
 # AAE6102 Assignment 1
 
 ## Satellite Communication and Navigation (2024/25 Semester 2)
 
-### The Hong Kong Polytechnic University  
-**Department of Aeronautical and Aviation Engineering**  
-
-**Due Date:** 13 March 2025  
 
 ## Overview  
 This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) signals** to develop a deeper understanding of **GNSS signal processing**. Students will analyze **two real Intermediate Frequency (IF) datasets** collected in different environments: **open-sky** and **urban**. The urban dataset contains **multipath and non-line-of-sight (NLOS) effects**, which can degrade positioning accuracy.
@@ -32,7 +23,7 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 
 ![image](https://github.com/IPNL-POLYU/AAE6102-assignments/blob/main/Picture1.png)
 
-## Assignment Tasks  
+## Assignment Results  
 
 ### **Task 1 – Acquisition**  
 Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results.
