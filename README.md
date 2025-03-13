@@ -85,7 +85,6 @@ The table above shows the channel to process the data and here we set the channe
 
 Urban environments create significant signal interference that impacts positioning systems. Multipath effects occur when signals reflect off buildings, causing delayed versions to interfere with the direct signal, which distorts tracking and increases errors. Signal blockage and attenuation from obstacles like buildings and tunnels lead to sudden signal drops, resulting in poor tracking stability and erratic outputs. Additionally, moving receivers cause fluctuating signal strength, leading to inconsistent tracking accuracy. To mitigate these issues, adaptive algorithms can improve tracking in multipath environments, while signal processing techniques like signal averaging and combining measurements from multiple satellites can enhance robustness and positioning accuracy.
 
-**Analysis**
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
 ![image](https://github.com/user-attachments/assets/178c9cc9-271c-43ae-8dcf-892afebdf901)
