@@ -90,7 +90,7 @@ Decode the **navigation message** and extract key parameters, such as **ephemeri
 
 Extracted Parameters for a Sample Satellite (PRN 20):
 
-PRN (Pseudo-Random Number): 20
+PRN (Pseudo-Random Number): 11
 Satellite Position (X, Y, Z in meters):
 X: [120500.43, -17035500.25, -22085000.50, 6204700.09, -22034000.67, -9505600.34, 10234300.76]
 Y: [23054000.58, 16042000.12, 13023000.73, 24081000.99, 3400000.87, 19543000.64, 18076000.52]
