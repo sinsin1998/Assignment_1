@@ -21,7 +21,8 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 
 ### **Task 1 – Acquisition**  
 Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. Code relative shows as follow
-'''matlab
+
+'''
 %% Acquisition settings ===================================================
 % Skips acquisition in the script postProcessing.m if set to 1
 settings.skipAcquisition    = 0;
