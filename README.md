@@ -21,8 +21,8 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 
 ### **Task 1 – Acquisition**  
 Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. Code relative shows as follow
-
-··· % Skips acquisition in the script postProcessing.m if set to 1
+``` 
+% Skips acquisition in the script postProcessing.m if set to 1
 settings.skipAcquisition    = 0;
 % List of satellites to look for. Some satellites can be excluded to speed
 % up acquisition
@@ -37,7 +37,7 @@ settings.resamplingThreshold    = 8e6;            % [Hz]
 % Enable/dissable use of downsampling for acquisition
 settings.resamplingflag         = 0;              % 0 - Off
                                                   % 1 - On
-···
+```
 
 **1.1 Down-Conversion and Synchronous Demodulation:**
 
