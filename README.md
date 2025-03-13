@@ -88,7 +88,7 @@ Urban environments create significant signal interference that impacts positioni
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
 
-Extracted Parameters for a Sample Satellite (PRN 20):
+Extracted Parameters for a Sample Satellite (PRN 11):
 
 PRN (Pseudo-Random Number): 11
 Satellite Position (X, Y, Z in meters):
