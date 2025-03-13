@@ -77,11 +77,13 @@ As the figure abouve shows the opensky tracking results. We can easily see that 
 
 ![image](https://github.com/user-attachments/assets/b97702bd-4bd8-4f19-97cb-59b79851a367)
 The figure shows the urban tracking results. The local carrier may not always stay synchronized with the received signal, leading to instability in carrier tracking. It can be demonstrated that satellites are poorly acquired and tracked in urban environments.
-![image](https://github.com/user-attachments/assets/5113d387-adf8-4a16-a9a4-e15f4db802c0)
-The figure shows the correlation.
 
 ![image](https://github.com/user-attachments/assets/1bc3f6af-932d-4be6-8669-8db4052dd0b9)
 The table above shows the channel to process the data and here we set the channel number as 6.
+
+**Discuss the impact of urban interference on the correlation peaks**
+
+Urban environments create significant signal interference that impacts positioning systems. Multipath effects occur when signals reflect off buildings, causing delayed versions to interfere with the direct signal, which distorts tracking and increases errors. Signal blockage and attenuation from obstacles like buildings and tunnels lead to sudden signal drops, resulting in poor tracking stability and erratic outputs. Additionally, moving receivers cause fluctuating signal strength, leading to inconsistent tracking accuracy. To mitigate these issues, adaptive algorithms can improve tracking in multipath environments, while signal processing techniques like signal averaging and combining measurements from multiple satellites can enhance robustness and positioning accuracy.
 
 **Analysis**
 ### **Task 3 – Navigation Data Decoding**  
