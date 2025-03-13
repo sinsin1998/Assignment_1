@@ -20,19 +20,24 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 ## Assignment Results  
 
 ### **Task 1 – Acquisition**  
+Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. 
 
-**Down-Conversion and Synchronous Demodulation:**
+**1.1 Down-Conversion and Synchronous Demodulation:**
+
 The received GNSS signal is down-converted from RF to IF by mixing with a locally generated carrier signal. This retains the PRN code and navigation data. The signal is transformed to the frequency domain for analysis, with the search range set as IF.
 
-**Frequency Domain Transformation and PRN Code Matching:**
+**1.2 Frequency Domain Transformation and PRN Code Matching:**
+
 Each candidate satellite’s PRN code is converted to the frequency domain using FFT. The frequency representation of the received signal is multiplied point-by-point with the PRN code, corresponding to time-domain convolution. The result is converted back to the time domain using IFFT to obtain the correlation function.
 
-**Correlation Peak Detection and Threshold Judgment:**
+**1.3 Correlation Peak Detection and Threshold Judgment:**
+
 The peak of the correlation function indicates the code phase, and its amplitude reflects the match quality. Two adjacent 1 ms segments are processed, and the maximum correlation coefficient is chosen for each element. If the ratio of the highest to the second-highest peak satisfies P_{max1}/p_{max2} > 1.5 and the peaks are sufficiently separated, the satellite is considered successfully acquired.
 
-**Result Output and Transition to Fine Acquisition:**
+**1.4 Result Output and Transition to Fine Acquisition:**
+
 This process repeats for all visible satellites, estimating their code phases and Doppler shifts. Successfully acquired satellites and their parameters are then used for fine acquisition and further signal processing.
-Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. We get the results as the figure below. 
+We get the results in the figure below, where in the open sky dataset, satellites 16, 22, 26, 27, and 31 were successfully acquired, and in the urban dataset, satellites 1, 3, 11, and 18 were detected and acquired.
 ![image](https://github.com/sinsin1998/Assignment_1/blob/main/figures/Task%201/acquisition%20result%20sky%20and%20urban.png)
 
 ### **Task 2 – Tracking**  
