@@ -42,7 +42,7 @@ The figure shows the urban tracking results.
 The figure shows the correlation.
 
 ![image](https://github.com/user-attachments/assets/1bc3f6af-932d-4be6-8669-8db4052dd0b9)
-the table to process the channel 
+The table above shows the channel to process the data and here we set the channel number as 6.
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
 ![image](https://github.com/user-attachments/assets/178c9cc9-271c-43ae-8dcf-892afebdf901)
