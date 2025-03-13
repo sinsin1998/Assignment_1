@@ -110,7 +110,7 @@ In the Open Sky scenario, the ground truth coordinates are (22.328444770087565, 
 In the Urban scenario, the ground truth coordinates are (22.3198722, 114.209101777778), and the WLS estimate is (22.32, 114.209). The error here is around 14 meters. This slightly higher error reflects the challenges posed by the urban environment, where signal interference and multipath effects from buildings and other structures can reduce positioning accuracy compared to the open sky scenario.
 
 **Discuss**
-
+Multipath effects occur when GPS signals are reflected off surfaces, leading to time delays and inaccuracies in measurements. In open-sky environments, these effects are minimal, with small pseudorange errors (~5.5 meters), allowing WLS to provide accurate positioning. However, in urban environments, multipath is more severe due to reflections from buildings, causing significant pseudorange errors and affecting signal quality, even with high C/N0. This results in larger errors (~14 meters) and reduced WLS accuracy. The increased measurement errors, variance in some measurements, and poor model fitting caused by multipath lead to inaccurate coordinate estimates, especially in obstructed environments
 
 ### **Task 5 – Kalman Filter-Based Positioning**  
 Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler measurements** to estimate **user position and velocity**.
