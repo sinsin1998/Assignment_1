@@ -104,6 +104,14 @@ Using **pseudorange measurements** from tracking, implement the **Weighted Least
 - Compare the results with the **ground truth**.  
 - Discuss the impact of **multipath effects** on the WLS solution.
 
+**Results**
+In the Open Sky scenario, the ground truth coordinates are (22.328444770087565, 114.1713630049711), while the WLS (Weighted Least Squares) estimate is (22.3285, 114.1714). The error between the two is 0.00005°, which is approximately 5.5 meters. This indicates that the WLS estimate is very close to the actual position, showing high accuracy in an open environment with minimal interference.
+
+In the Urban scenario, the ground truth coordinates are (22.3198722, 114.209101777778), and the WLS estimate is (22.32, 114.209). The error here is around 14 meters. This slightly higher error reflects the challenges posed by the urban environment, where signal interference and multipath effects from buildings and other structures can reduce positioning accuracy compared to the open sky scenario.
+
+**Discuss**
+
+
 ### **Task 5 – Kalman Filter-Based Positioning**  
 Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler measurements** to estimate **user position and velocity**.
 
