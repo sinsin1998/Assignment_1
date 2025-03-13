@@ -58,7 +58,19 @@ We get the results in the figure below, where in the open sky dataset, satellite
 ![image](https://github.com/sinsin1998/Assignment_1/blob/main/figures/Task%201/acquisition%20result%20sky%20and%20urban.png)
 
 ### **Task 2 – Tracking**  
-Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)* 
+Adapt the **tracking loop (DLL)** to generate **correlation plots** and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. *(Multiple correlators must be implemented for plotting the correlation function.)* Code relative shows as follow
+``` matlab
+% Code tracking loop parameters
+settings.dllDampingRatio         = 0.707;%0.7;
+settings.dllNoiseBandwidth       = 2;%1.5;       %[Hz]
+settings.dllCorrelatorSpacing    = 0.5;     %[chips]
+
+% Carrier tracking loop parameters
+settings.pllDampingRatio         = 0.707;%0.7;
+settings.pllNoiseBandwidth       = 20;      %[Hz]
+% Integration time for DLL and PLL
+settings.intTime                 = 0.001;      %[s]
+```
 
 ![image](https://github.com/user-attachments/assets/b3c0b98d-828e-4d8b-ba7a-0813caf2f41b)
 As the figure shows the opensky tracking results.
