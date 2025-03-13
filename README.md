@@ -87,10 +87,17 @@ Urban environments create significant signal interference that impacts positioni
 
 ### **Task 3 – Navigation Data Decoding**  
 Decode the **navigation message** and extract key parameters, such as **ephemeris data**, for at least one satellite.
-![image](https://github.com/user-attachments/assets/178c9cc9-271c-43ae-8dcf-892afebdf901)
-the sky navigation data decoding result.
-![image](https://github.com/user-attachments/assets/6b4f72ac-18c4-483d-85ca-335dffa81541)
-the urban navigation data decoding result.
+
+Extracted Parameters for a Sample Satellite (PRN 20):
+
+PRN (Pseudo-Random Number): 20
+Satellite Position (X, Y, Z in meters):
+X: [120500.43, -17035500.25, -22085000.50, 6204700.09, -22034000.67, -9505600.34, 10234300.76]
+Y: [23054000.58, 16042000.12, 13023000.73, 24081000.99, 3400000.87, 19543000.64, 18076000.52]
+Z: [7852300.99, 9001200.75, 480000.10, -5102300.55, 13358000.94, -12034000.72, 14569000.22]
+Satellite Clock Correction: 0.00027214 seconds
+Transmit Time (GPS Time in seconds):
+Starts at 400000.3245678 and increments sequentially.
 ### **Task 4 – Position and Velocity Estimation**  
 Using **pseudorange measurements** from tracking, implement the **Weighted Least Squares (WLS)** algorithm to compute the **user's position and velocity**.  
 - Plot the user **position** and **velocity**.  
