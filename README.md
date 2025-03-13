@@ -20,7 +20,25 @@ This assignment focuses on processing **GNSS Software-Defined Receiver (SDR) sig
 ## Assignment Results  
 
 ### **Task 1 – Acquisition**  
-Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. 
+Process the **IF data** using a **GNSS SDR** and generate the initial acquisition results. Code relative shows as follow
+'''matlab
+%% Acquisition settings ===================================================
+% Skips acquisition in the script postProcessing.m if set to 1
+settings.skipAcquisition    = 0;
+% List of satellites to look for. Some satellites can be excluded to speed
+% up acquisition
+settings.acqSatelliteList   = 1:32;         %[PRN numbers]
+% Band around IF to search for satellite signal. Depends on max Doppler.
+% It is single sideband, so the whole search band is tiwce of it.
+settings.acqSearchBand      = 7000;           %[Hz]
+% Threshold for the signal presence decision rule
+settings.acqThreshold       = 1.5; % Original: 1.8
+% Sampling rate threshold for downsampling 
+settings.resamplingThreshold    = 8e6;            % [Hz]
+% Enable/dissable use of downsampling for acquisition
+settings.resamplingflag         = 0;              % 0 - Off
+                                                  % 1 - On
+'''
 
 **1.1 Down-Conversion and Synchronous Demodulation:**
 
